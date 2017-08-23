@@ -5,7 +5,16 @@
 * add /bower_components to .gitignore
 * $ bower install bootstrap --save
 * add "../bower_components/bootstrap/dist/css/bootstrap.css" in the "styles" section of angular-cli.json.
-* 
+* $ ng g component welcome (add new welcome component)
+* Make app.routing.ts in the app folder "https://www.learnhowtoprogram.com/javascript/angular-extended/implementing-a-router"
+* Add route files and any components to the root module "import { routing } from './app.routing';"
+* Update root app component html: add <router-outlet></router-outlet>
+* Make new component: About "https://www.learnhowtoprogram.com/javascript/angular-extended/managing-and-navigating-multiple-routes"
+* Update routing for about component
+* Update app.component html with nav bars with routerLink
+* Create/add info into a Model - "https://www.learnhowtoprogram.com/javascript/angular-extended/dynamic-routing-navigation"
+* $ ng g class project.model
+* add code to list these albums in the all-projects.component.html template:
 
 # FundCrowder
 
