@@ -15,6 +15,14 @@
 * Create/add info into a Model - "https://www.learnhowtoprogram.com/javascript/angular-extended/dynamic-routing-navigation"
 * $ ng g class project.model
 * add code to list these albums in the all-projects.component.html template:
+* Create project-detail component: $ ng g component project-detail
+* Add route to app.routing.ts = {
+    path: 'projects/:id',
+    component: ProjectDetailComponent
+  }
+* Add click event binding to the all-projects.component.html files
+* Move constructor in all-projects.component.ts to reside within the export class above the projects
+* 
 
 # FundCrowder
 
