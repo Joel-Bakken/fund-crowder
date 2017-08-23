@@ -1,3 +1,12 @@
+# Steps we took
+
+* $ ng new fund-crowder
+* $ bower init
+* add /bower_components to .gitignore
+* $ bower install bootstrap --save
+* add "../bower_components/bootstrap/dist/css/bootstrap.css" in the "styles" section of angular-cli.json.
+* 
+
 # FundCrowder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
