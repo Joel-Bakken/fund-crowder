@@ -22,7 +22,7 @@
   }
 * Add click event binding to the all-projects.component.html files
 * Move constructor in all-projects.component.ts to reside within the export class above the projects
-* 
+* Add code to retrieve parameters[id]:  "https://www.learnhowtoprogram.com/javascript/angular-extended/dynamic-routing-retrieving-parameters"
 
 # FundCrowder
 
