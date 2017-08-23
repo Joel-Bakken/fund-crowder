@@ -1,3 +1,14 @@
+# Setup
+create api-keys.ts under the app folder, then enter the following in the file:
+
+export var masterFirebaseConfig = {
+  apiKey: "AIzaSyBoFCNfNEng70X-wv_RGR21yICWGNYi0Cw",
+  authDomain: "fund-crowder.firebaseapp.com",
+  databaseURL: "https://fund-crowder.firebaseio.com",
+  storageBucket: "",
+  messagingSenderId: "625573928448"
+};
+
 # Steps we took
 
 * $ ng new fund-crowder
@@ -23,6 +34,21 @@
 * Add click event binding to the all-projects.component.html files
 * Move constructor in all-projects.component.ts to reside within the export class above the projects
 * Add code to retrieve parameters[id]:  "https://www.learnhowtoprogram.com/javascript/angular-extended/dynamic-routing-retrieving-parameters"
+* Create mock-projects.ts file in app folder and move array of projects from all-projects to here so the service can manage it separately.
+* In app-projects change projects: to projects: Project[];
+* $ ng g service project.service - Create service that will be injected later.
+* "https://www.learnhowtoprogram.com/javascript/angular-extended/services";
+* Import model and mock-projects to project.service.ts
+* Add getProject method to return project
+* Import ProjectService to all-projects.component.ts
+* Add private projectService: ProjectService to constructor
+* Under component, add providers: [ProjectService]
+* update project-detail-component to display project details
+* Set up Firebase: https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup
+* enter the following: $ npm install promise-polyfill --save-exact
+* Create sample-projects.json with data from mock-projects.ts and import to firebase.
+* update project.service.ts to retrieve data from firebase via instructions on https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-retrieving-data
+* 
 
 # FundCrowder
 
