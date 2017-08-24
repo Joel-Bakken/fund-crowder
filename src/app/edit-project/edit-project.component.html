@@ -1,0 +1,32 @@
+<h4>Edit Project</h4>
+
+<label>Project Name:</label>
+<br>
+<input [(ngModel)]="selectedProject.name">
+
+
+<label>Brief Description of Project:</label>
+<br>
+<textarea [(ngModel)]="selectedProject.description"></textarea>
+
+
+<label>Project Manager's Name:</label>
+<br>
+<input [(ngModel)]="selectedProject.manager">
+
+
+<label>Goal Amount:</label>
+<br>
+<input [(ngModel)]="selectedProject.amount">
+
+
+<label>Project Content:</label>
+<br>
+<textarea [(ngModel)]="selectedProject.content"></textarea>
+
+
+<label>Project Category (ex. Cookbooks, Comics, Documentary):</label>
+<br>
+<input [(ngModel)]="selectedProject.category">
+
+<button (click)="beginUpdatingProject(selectedProject)">Update</button>

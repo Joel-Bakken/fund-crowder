@@ -19,10 +19,16 @@ export class ProjectService {
   }
 
   getProjectById(projectId: string){
-    // for (var i = 0; i <= PROJECTS.length - 1; i++) {
-    //   if (PROJECTS[i].id === projectId) {
-    //     return PROJECTS[i];
-    //   }
-    // }
+    return this.database.object('/projects/' + projectId);
+  }
+
+  updateProject(localUpdatedProject) {
+    var projectEntryInFirebase = this.getProjectById(localUpdatedProject.$key);
+    projectEntryInFirebase.update({name: localUpdatedProject.name,
+                                description: localUpdatedProject.description,
+                                manager: localUpdatedProject.manager,
+                              amount: localUpdatedProject.amount,
+                            content: localUpdatedProject.content,
+                          category: localUpdatedProject.category});
   }
 }
