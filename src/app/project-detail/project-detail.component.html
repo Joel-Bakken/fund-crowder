@@ -1,9 +1,9 @@
 <div>
-  <h1>{{projectToDisplay.name}}</h1>
-  <h4><em>{{projectToDisplay.description}}</em></h4><br>
-  <p>{{projectToDisplay.category}}</p><br>
-  <h4>By: {{projectToDisplay.manager}}</h4><br>
-  <p>Goal: ${{projectToDisplay.amount}}</p><br>
+  <h1>{{(projectToDisplay | async).name}}</h1>
+  <h4><em>{{(projectToDisplay | async).description}}</em></h4><br>
+  <p>{{(projectToDisplay | async).category}}</p><br>
+  <h4>By: {{(projectToDisplay | async).manager}}</h4><br>
+  <p>Goal: ${{(projectToDisplay | async).amount}}</p><br>
   <h3>About this Project:</h3><br>
-  <p>{{projectToDisplay.content}}</p><br>
+  <p>{{(projectToDisplay | async).content}}</p><br>
 </div>

@@ -48,7 +48,9 @@ export var masterFirebaseConfig = {
 * enter the following: $ npm install promise-polyfill --save-exact
 * Create sample-projects.json with data from mock-projects.ts and import to firebase.
 * update project.service.ts to retrieve data from firebase via instructions on https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-retrieving-data
-* 
+* Add code to create and save a new project to firebase: "https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-saving-data"
+* Remove ID numbers from mock-projects.ts
+
 
 # FundCrowder
 
