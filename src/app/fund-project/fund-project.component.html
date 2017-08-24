@@ -1,0 +1,8 @@
+<h3>Thank you for funding {{project.name}}!</h3>
+<h4>Please enter your payment details below</h4>
+<label>Amount to fund:</label>
+$<input #newAmountFunded>
+<br>
+<label>Enter your credit card number here:</label>
+<input #CC type="number" maxlength="10">
+<button (click)="beginFundingProject(newAmountFunded.value); newAmountFunded.value=''; CC.value=''">Fund It Now</button>

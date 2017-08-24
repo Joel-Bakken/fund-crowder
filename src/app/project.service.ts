@@ -32,8 +32,14 @@ export class ProjectService {
                           category: localUpdatedProject.category});
   }
 
-  deleteProject(localPojectToDelete){
-    var projectEntryInFirebase = this.getProjectById(localPojectToDelete.$key);
+  deleteProject(localProjectToDelete){
+    var projectEntryInFirebase = this.getProjectById(localProjectToDelete.$key);
     projectEntryInFirebase.remove();
   }
+
+  fundProject(localProjectToFund){
+    var projectEntryInFirebase = this.getProjectById(localProjectToFund.$key);
+    projectEntryInFirebase.update({amountfunded: localProjectToFund.amountfunded});
+  }
+
 }

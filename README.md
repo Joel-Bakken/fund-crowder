@@ -53,7 +53,9 @@ export var masterFirebaseConfig = {
 * Add code to edit projects: "https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-updating-entries"
 * Add code to delete firebase entries - https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-deleting-entries
 * add delete button to edit-album.component.html and backend code for same to edit-album.component.ts
-* 
+* Create a fund project component using: $ ng g component fund-project
+* Add "Fund It" button to the all-projects html file
+* Create a category pipe: $ng g pipe category
 
 
 # FundCrowder

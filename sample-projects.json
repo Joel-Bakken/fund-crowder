@@ -4,6 +4,7 @@
     "manager": "Liv, Carrie, and Jared",
     "amount": 5000,
     "content": "Pudgie Revolution 2 is full of creative recipes that will push your pie iron's potential.  There are recipes that use unconventional crusts, like our Deep Pied Pickle which wraps up pickles and pepper jack cheese in egg roll  wrappers.  We also have recipes for irons of different shapes and sizes, like our bacon/maple/donut pudgie pie that fits perfectly in a round pie iron.  And we've truly pushed our pie iron's potential with recipes that use no crust at all, like our Thanks a Latke pudgie--a crispy and delicious potato pancake!",
+    "amountfunded": 0,
     "category": "Cookbooks",
     "id": 0
   }, {
@@ -12,6 +13,7 @@
     "manager": "Zainab Akhtar",
     "amount": 11500,
     "content": "Hi, everyone! I'm really pleased and excited to announce that Critical Chips is back with a brand spanking new volume packed full of comics essays and criticism. Last year, with your support, we published the first volume of Critical Chips through Kickstarter, and it did pretty well: it was nominated for an Eisner award(!), but more gratifying than that was to be able to create the zine itself, and to see people respond to it with enthusiasm.",
+    "amountfunded": 0,
     "category": "Comics",
     "id": 1
     }, {
@@ -20,6 +22,7 @@
       "manager": "Solano Film Collective",
       "amount": 15000,
       "content": "Kaksori (“singing beggar”) is a popular folk tradition that has seen little documentation and now is in danger of dying out. Our film explores kaksori as a form of social critique and uses the performers’ stories as a key to explore the social reality of South Korea’s turbulent economic rise.",
+      "amountfunded": 0,
       "category": "Documentary",
       "id": 2
       }, {
@@ -28,6 +31,7 @@
       "manager": "Francesca's Italian Kitchen",
       "amount": 32580,
       "content": "Just in time for Christmas, our gorgeous, authentic, and totally easy to use cook book will be in stores by December 2017! Featuring over 100 unique recipes from our restaurant kitchens plus dishes inspired by our journey around Italy, the book is ultimately inspired by the Italian ethos of cooking - fresh, local, exceptionally GOOD produce, cooked simply.",
+      "amountfunded": 0,
       "category": "Cookbooks",
       "id": 3
       }]
