@@ -56,6 +56,9 @@ export var masterFirebaseConfig = {
 * Create a fund project component using: $ ng g component fund-project
 * Add "Fund It" button to the all-projects html file
 * Create a category pipe: $ng g pipe category
+* Followed along with https://www.learnhowtoprogram.com/javascript/angular-js/filtering-data-with-pipes
+* - Some info in the above lesson does not apply as the CLI does some of the work for you!!!
+*
 
 
 # FundCrowder
