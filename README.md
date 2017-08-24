@@ -50,6 +50,10 @@ export var masterFirebaseConfig = {
 * update project.service.ts to retrieve data from firebase via instructions on https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-retrieving-data
 * Add code to create and save a new project to firebase: "https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-saving-data"
 * Remove ID numbers from mock-projects.ts
+* Add code to edit projects: "https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-updating-entries"
+* Add code to delete firebase entries - https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-deleting-entries
+* add delete button to edit-album.component.html and backend code for same to edit-album.component.ts
+* 
 
 
 # FundCrowder
