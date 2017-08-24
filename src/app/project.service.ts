@@ -37,9 +37,10 @@ export class ProjectService {
     projectEntryInFirebase.remove();
   }
 
-  fundProject(localProjectToFund){
-    var projectEntryInFirebase = this.getProjectById(localProjectToFund.$key);
-    projectEntryInFirebase.update({amountfunded: localProjectToFund.amountfunded});
-  }
+  // fundProject(localProjectToFund, amountfunded){
+  //   var projectEntryInFirebase = this.getProjectById(localProjectToFund.$key);
+  //   projectEntryInFirebase.amountfunded = projectEntryInFirebase.amountfunded + amountfunded;
+  //   projectEntryInFirebase.update({amountfunded: localProjectToFund.amountfunded});
+  // }
 
 }

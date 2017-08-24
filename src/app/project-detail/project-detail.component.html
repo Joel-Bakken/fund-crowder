@@ -7,3 +7,5 @@
   <h3>About this Project:</h3><br>
   <p>{{(projectToDisplay | async).content}}</p><br>
 </div>
+<button>Fund It</button>
+<app-fund-project [project] = "projectToDisplay">Fund It!</app-fund-project>

@@ -58,7 +58,7 @@ export var masterFirebaseConfig = {
 * Create a category pipe: $ng g pipe category
 * Followed along with https://www.learnhowtoprogram.com/javascript/angular-js/filtering-data-with-pipes
 * - Some info in the above lesson does not apply as the CLI does some of the work for you!!!
-*
+* 
 
 
 # FundCrowder
